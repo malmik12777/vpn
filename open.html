@@ -3,18 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Open Amnezia</title>
+<title>Подключение VPN</title>
 </head>
 <body>
-<h3>Открываем Amnezia…</h3>
-<p>Если ничего не произошло — нажмите кнопку ниже.</p>
-<button onclick="go()">Открыть</button>
+<h2>Нажмите кнопку</h2>
+<p>Браузер блокирует автозапуск. Это нормально.</p>
+
+<button style="font-size:18px;padding:12px" onclick="go()">
+Открыть Amnezia
+</button>
 
 <script>
 function go() {
-  window.location.href = "amnezia://import?url=https://drive.google.com/uc?export=download&id=1ELMFjPJP5MO7suqQ2zF32URI9voY8qui";
+  window.location.href =
+    "amnezia://import?url=https://drive.google.com/uc?export=download&id=1ELMFjPJP5MO7suqQ2zF32URI9voY8qui";
 }
-go();
 </script>
 </body>
 </html>
